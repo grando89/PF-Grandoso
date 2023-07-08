@@ -1,234 +1,245 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
- /* Fuente principal    */
-@font-face {
-    font-family: caviar;
-    src: url(/fonts/CaviarDreams_Bold.ttf);}
 
-    /* Menu Navegacion  index   */
-.menuInicio ul{
-        display: flex;
-        justify-content: center;
-        list-style:none;
-        justify-content: space-evenly;
-        font-size: 20px;
-        font-family: caviar;
-    }
- /* Estilo HEADER GENERAL */   
+/* Fuente principal    */
+@font-face {
+  font-family: caviar;
+  src: url(/fonts/CaviarDreams_Bold.ttf);
+}
+/* Menu Navegacion  index   */
+.menuInicio ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  justify-content: space-evenly;
+  font-size: 20px;
+  font-family: caviar;
+}
+
+/* Estilo HEADER GENERAL */
 header {
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(254,193,7);
-    }
-header h1{
-    font-size: 50px;
-    font-family: caviar;
-    display: inline;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(254, 193, 7);
 }
-header  div h2{
-    text-align: center;
-    font-family: caviar;
-    font-size: 20px;
+
+header h1 {
+  font-size: 50px;
+  font-family: caviar;
+  display: inline;
 }
-header div h3 a{
-    font-size: 20px;
+
+header div h2 {
+  text-align: center;
+  font-family: caviar;
+  font-size: 20px;
+}
+
+header div h3 a {
+  font-size: 20px;
 }
 
 /* lOGO INDEX */
-.titulo img{
-    height: 100px;
-    
+.titulo img {
+  height: 100px;
 }
+
 /* Estilo Ingreso Usuario  */
-.ingreso{
-    display: flex;
-    justify-content: center;
+.ingreso {
+  display: flex;
+  justify-content: center;
 }
 
-
-.navbar{
-    font-size: 20px;
-    justify-content: center;
-    
+.navbar {
+  font-size: 20px;
+  justify-content: center;
 }
-#navbarNavAltMarkup{
-    justify-content: center;
-    
+
+#navbarNavAltMarkup {
+  justify-content: center;
 }
 
 /* Estilos MAIN */
-.mainindex{
-    height: 1000px;
-    background-color: rgb(132, 174, 228);
-}
-.mainindex img{
-    height: 800px;
-    width: 200px;
-    margin-top: 100px;
+.mainindex {
+  height: 1000px;
+  background-color: rgb(132, 174, 228);
 }
 
-.mainBanio{
-    height: 1200px;
-    background-color: rgb(167, 118, 199);
-    
+.mainindex img {
+  height: 800px;
+  width: 200px;
+  margin-top: 100px;
 }
 
-
-.mainElectro{
-    height: 1200px;
-    background-color: rgb(48, 31, 92);
-
+.mainBanio {
+  height: 1200px;
+  background-color: rgb(167, 118, 199);
 }
 
-.mainConstruccion{
-    height: 1500px;
-    background-color: rgb(123, 136, 136);
-    
+.mainElectro {
+  height: 1200px;
+  background-color: rgb(48, 31, 92);
+}
+
+.mainConstruccion {
+  height: 1500px;
+  background-color: rgb(123, 136, 136);
 }
 
 .mainCocina {
-    height: 1200px;
-    background-color: rgb(178, 231, 232);  
-}
-.mainJardin {
-    height: 1400px;
-    background-color: rgb(132, 182, 146);  
-}
-/* Imagen Portada Sectores */
-.portada{
-    width: 100%;
-    height: 400px;
-    image-rendering: optimizeQuality;
-    border-radius: 5px;
-    border: double;
-    border-style: solid;
-    
-}
-/* Menu De compras */
-.menuBanio{
-    display: flex;
-    justify-content: center;
-    background-color:  rgb(167, 118, 199) ;
-    font-family: caviar;
-    
+  height: 1200px;
+  background-color: rgb(178, 231, 232);
 }
 
-.menuConstruccion{
-    display: flex;
-    justify-content: center;
-    background-color:  rgb(123, 136, 136) ;
-    font-family: caviar;
+.mainJardin {
+  height: 1400px;
+  background-color: rgb(132, 182, 146);
 }
-.menuCocina{
-    display: flex;
-    justify-content: center;
-    background-color:  rgb(178, 231, 232) ;
-    font-family: caviar;
+
+/* Imagen Portada Sectores */
+.portada {
+  width: 100%;
+  height: 400px;
+  image-rendering: optimizeQuality;
+  border-radius: 5px;
+  border: double;
+  border-style: solid;
 }
-.menuJardin{
-    display: flex;
-    justify-content: center;
-    background-color:  rgb(132, 182, 146) ;
-    font-family: caviar;
+
+/* Menu De compras */
+.menuBanio {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(167, 118, 199);
+  font-family: caviar;
 }
-.menuElectro{
-    display: flex;
-    justify-content: center;
-    background-color:  rgb(48, 31, 92) ;
-    font-family: caviar;
+
+.menuConstruccion {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(123, 136, 136);
+  font-family: caviar;
+}
+
+.menuCocina {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(178, 231, 232);
+  font-family: caviar;
+}
+
+.menuJardin {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(132, 182, 146);
+  font-family: caviar;
+}
+
+.menuElectro {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(48, 31, 92);
+  font-family: caviar;
 }
 
 /* Estilo cajas menu de compra   */
-.cajamenu{
-    font-size: 25px;
-    border-width: 4px;
-    border-radius: 5px;
-    margin: 40px;
-    font-family: caviar;
-    
+.cajamenu {
+  font-size: 25px;
+  border-width: 4px;
+  border-radius: 5px;
+  margin: 40px;
+  font-family: caviar;
 }
-/* Estilo caja sector Construccion  */
-.caja{
-    background-color: rgb(182, 212, 221);
-    justify-content: center;
-    text-align: center;
-    border: double;
-    height: 300px;
-    width: 300px;
-    }
-.caja div h2{
-    font-size: 15px;
-    font-family: caviar;
-}    
-.caja div h3{
-    font-size: 15px;
-}
-.caja img{
-    height: 200px;
-}
-/* Grid Menu de Compras*/
-#menu{
-display: grid;
-grid-template-columns: 100px 100px 100px 100px;
-justify-content:space-around;
-text-align: center;
-height: 800px;
-padding: 20px;
-margin: 20px;
 
+/* Estilo caja sector Construccion  */
+.caja {
+  background-color: rgb(182, 212, 221);
+  justify-content: center;
+  text-align: center;
+  border: double;
+  height: 300px;
+  width: 300px;
 }
+
+.caja div h2 {
+  font-size: 15px;
+  font-family: caviar;
+}
+
+.caja div h3 {
+  font-size: 15px;
+}
+
+.caja img {
+  height: 200px;
+}
+
+/* Grid Menu de Compras*/
+#menu {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  justify-content: space-around;
+  text-align: center;
+  height: 800px;
+  padding: 20px;
+  margin: 20px;
+}
+
 /* Estilos cajas con Grid  */
 .caja1 {
-background-color: rgb(182, 212, 221);
-justify-content: center;
-height: 320px;
-width: 200px;
-text-align: center;
-border: double;
-border-radius: 5px;
-font-size: 15px;
+  background-color: rgb(182, 212, 221);
+  justify-content: center;
+  height: 320px;
+  width: 200px;
+  text-align: center;
+  border: double;
+  border-radius: 5px;
+  font-size: 15px;
 }
 
-.caja1 h2{
-    font-size: 15px;
-    font-family: caviar;
+.caja1 h2 {
+  font-size: 15px;
+  font-family: caviar;
 }
 
-.caja1 div img{
-width: 100%;
+.caja1 div img {
+  width: 100%;
 }
 
-button{
-    color: blueviolet;
-}
-a{
-    color: rgb(18, 75, 197);
-    text-decoration: none;
+button {
+  color: blueviolet;
 }
 
-#footer2{
-    height: 200px;
-    background-color: rgb(254,193,7);
-    background-size: cover;
-    text-align: center;
-    }
-    /* Redes sociales */
-    .redes{
-        display: flex;
-        justify-content: center;
-        height: 15px;
-    }
-    .redes div img:hover{
-        transform: scale(1.2);
-    }
-
-#footer2 h1{
-    font-size: 20px;
-    display: flex;
-    font-family: caviar;
-
-  
+a {
+  color: rgb(18, 75, 197);
+  text-decoration: none;
 }
+
+#footer2 {
+  height: 200px;
+  background-color: rgb(254, 193, 7);
+  background-size: cover;
+  text-align: center;
+}
+
+/* Redes sociales */
+.redes {
+  display: flex;
+  justify-content: center;
+  height: 15px;
+}
+
+.redes div img:hover {
+  transform: scale(1.2);
+}
+
+#footer2 h1 {
+  font-size: 20px;
+  display: flex;
+  font-family: caviar;
+}
+
+/*# sourceMappingURL=estilos.css.map */
