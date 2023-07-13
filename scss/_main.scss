@@ -1,0 +1,66 @@
+/* Estilos MAIN */
+.mainindex{
+    height: 1000px;
+    background-color: rgb(132, 174, 228);
+    img{
+        height: 600px;
+        width: 200px;
+        margin-top: 100px;
+}
+}
+
+.mainBanio{
+    height: $height-main;
+    background-color: $color-banio;
+    @media (max-width: 805px) {
+        height: 2500px;}
+    @media (max-width: 1200px) {
+            height: 1700px;}
+
+}
+
+.mainElectro{
+    height: $height-main;
+    background-color: $color-electro;
+    @media (max-width: 805px) {
+        height: 1800px;}
+        @media (max-width: 1200px) {
+            height: 1700px;}    
+
+}
+
+.mainConstruccion{
+    height: $height-main;
+    background-color:$color-construccion;
+    @media (max-width: 805px) {
+        height: 1800px;}
+    @media (max-width: 1200px) {
+            height: 1700px;}    
+
+}
+
+.mainCocina {
+    height: $height-main;
+    background-color: $color-cocina; 
+    @media (max-width: 805px) {
+        height: 1800px;}
+    @media (max-width: 1200px) {
+            height: 1700px;}     
+
+}
+.mainJardin {
+    height: $height-main;
+    background-color: $color-jardin;  
+    @media (max-width: 805px) {
+        height: 1800px;}
+}
+/* Imagen Portada Sectores */
+.portada{
+    width: 100%;
+    height: 400px;
+    image-rendering: optimizeQuality;
+    border-radius: 5px;
+    border: double;
+    border-style: solid;
+
+}

@@ -1,0 +1,28 @@
+#footer2{
+    height: 200px;
+    background-color:$fondo-menu;
+    background-size: cover;
+    text-align: center;
+    h1{
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            font-family: $font-principal;
+    }
+    }
+    /* Redes sociales */
+    .redes{
+        display: flex;
+        justify-content: center;
+        height: 30px;
+        div {
+            img{
+                &:hover{
+                    transform: scale(1.2);
+                }
+            }
+        }
+    }
+
+
+    

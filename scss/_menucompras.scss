@@ -1,0 +1,116 @@
+/* Menu De compras */
+
+.flex-center{
+    display:flex;
+    justify-content: center;
+    font-family: $font-principal ;
+}
+
+
+.menuBanio{
+    @extend .flex-center;
+    background-color:  $color-banio ;
+    
+
+}
+
+.menuConstruccion{
+    @extend .flex-center;
+    background-color:  $color-construccion ;
+    
+}
+.menuCocina{
+    @extend .flex-center;
+    background-color:  $color-cocina ;
+
+}
+.menuJardin{
+    @extend .flex-center;
+    background-color:  $color-jardin ;
+    
+}
+.menuElectro{
+    @extend .flex-center;
+    background-color:  $color-electro ;
+   
+}
+.cajamenu{
+    font-size: 25px;
+    border-width: 4px;
+    border-radius: 5px;
+    margin: 40px;
+    font-family: $font-principal;
+
+}
+/* Estilo caja sector Construccion  */
+.caja{
+    background-color: $fondo-caja;
+    justify-content: space-between;
+    text-align: center;
+    border: double;
+    height: 300px;
+    width: 300px;
+    div{
+        h2{
+            font-size: 15px;
+            font-family: $font-principal;
+        }
+        h3{
+            font-size: 15px;
+    } 
+    }
+img{
+        height: 200px;
+        width: 200px;
+
+    }    
+}
+/* Grid Menu de Compras*/
+#menu{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+justify-content:space-around;
+text-align: center;
+height: 100%;
+padding: 20px;
+margin: 20px;
+grid-gap: 20px;
+
+}
+/* Estilos cajas con Grid  */
+.caja1 {
+background-color: $fondo-caja;
+justify-content: space-between;
+height: 320px;
+width: 200px;
+text-align: center;
+border: double;
+border-radius: 5px;
+font-size: 15px;
+h2{
+    font-size: 15px;
+    font-family: $font-principal;
+}
+h3{
+    font-size: 15px;
+    font-family: lemon;
+}
+div {
+    img{
+        width: 100%;
+    }
+}
+
+}
+
+button{
+    color: blueviolet;
+    background-color: rgb(230, 197, 55);
+    font-family: lemon;
+    border-radius: 10px;
+    font-size: 10px;
+}
+a{
+    color: rgb(18, 75, 197);
+    text-decoration: none;
+}

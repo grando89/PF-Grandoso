@@ -1,0 +1,11 @@
+    /* Menu Navegacion  index   */
+    .menuInicio {
+        ul{
+            display: flex;
+            justify-content: center;
+            list-style:none;
+            justify-content: space-evenly;
+            font-size: 20px;
+            font-family: $font-principal;
+    }
+        }

@@ -1,0 +1,28 @@
+header {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: $fondo-menu;
+    h1{
+        font-size: 50px;
+        font-family: $font-principal;
+        display: inline; 
+}
+    div h2{
+            text-align: center;
+            font-family: $font-principal;
+            font-size: 20px;    }
+            h3 a{
+                font-size: 20px;
+}   
+}
+/* lOGO INDEX */
+.titulo{
+    img{
+        height: 100px;
+}
+}
+
+.btn-primar{
+    background-color: yellowgreen;
+}

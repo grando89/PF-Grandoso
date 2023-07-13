@@ -1,11 +1,15 @@
 {
+<<<<<<< HEAD
   "name": "proyecto",
+=======
+  "name": "practica",
+>>>>>>> 3a6be2165132c6e5d6ae9d9127638d02a5f24d91
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  }
   "keywords": [],
   "author": "",
   "license": "ISC"

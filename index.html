@@ -3,9 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"href="/css/bootstrap.min.css">
-    <script src="js/bootstrap.bundle.min.js"> </script>
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/estilos.css">
     
     <title>La  Bulonera</title>
@@ -16,7 +14,7 @@
 
   <div class="container">
     <div clas="row">
-      <div class="titulo col-12 col-lg-4">
+      <div class="titulo col-12 col-lg-12">
         <h1> 
           La Bulonera  <img src="/img/bulon.jpg"alt="bulon">
         </h1>  
@@ -41,13 +39,13 @@
 <!--Ingreso de Usuario-->
   <div class="container">
       <div clas="row">  
-          <div class="ingreso">
+          <div class="ingreso col-sm-12 col-lg-12">
             <form  action="ingreso">
-                <label for="email col-6 col-lg-12">Usuario</label>
+                <label for="email ">Usuario</label>
                 <input type="email" name="correo" placeholder="Ingrese su email" required> 
-                <label for="password col-6 col-lg-12">Contraseña</label>
+                <label for="password ">Contraseña</label>
                 <input type="password" name="Contrasenia" placeholder="Ingrese su Contraseña" required>
-                <button type="button" class="btn btn-primary">Ingresar</button>
+                <button type="button" class=" btn btn-outline-primary  ">Ingresar</button>
 
             </form> 
           </div>
@@ -92,9 +90,24 @@
   </div>
     </div>
       </section>   
+      
+    <aside>
+      
+  <button class="text-bg info p-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Metodos De Pago</button>
 
-
-
+<div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasBottomLabel">6 cuotas con todas las tarjetas</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <img src="/img/visa.png"alt="visa">
+    <img src="/img/mastercard.png"alt="mastercard">
+    <img src="/img/efectivo2.png"alt="efectivo">
+    <img src="/img/tarjeta amex.png"alt="amex">
+  </div>
+</div>
+    </aside>
 
 </main>
 
@@ -106,7 +119,7 @@
 
 <div class="container">
   <div class="row">
-      <p class=" col -6 col-lg-12">
+      <p class=" col-12 col-lg-12">
       <!--Enlace Externo-->
       <a href="https://www.google.com/maps/?hl=es" target="_blank"> Buscar Tiendas cercanas</a>
     </p> 
@@ -117,27 +130,29 @@
 <div class="container">
   <div clas="row">  
     <div class="redes">
-    <div class="col-12">
+    <div class="col-6">
       <img src="/img/email2.png"alt="sobre">
       <img src="/img/facebook.png"alt="logo facebook">
       <img src="/img/instagram.png"alt="logo instagram">
     </div>
     </div>
   </div>
+</div>  
   
+  <br><br>
   <!--Telefonos de contacto-->
-  <div>
-    <h1>
+<div class="container">
+  <div class="row">
+    <h1 class="col-12  col-lg-12">
         Telefonos : 4627-1239 / 4627-1240
     </h1>
   </div>
-
 </div>
 
 
 </footer>
 
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 
 </html>
