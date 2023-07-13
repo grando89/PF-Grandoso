@@ -1,4 +1,25 @@
 /*VARIABLES*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Fuente principal    */
+@font-face {
+  font-family: caviar;
+  src: url(/fonts/CaviarDreams_Bold.ttf);
+}
+/* Menu Navegacion  index   */
+.menuInicio ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  justify-content: space-evenly;
+  font-size: 20px;
+  font-family: caviar;
+}
+
+/* Estilo HEADER GENERAL */
 header {
   height: 200px;
   display: flex;
