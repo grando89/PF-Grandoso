@@ -1,7 +1,13 @@
 /* Estilos MAIN */
 .mainindex{
-    height: 1000px;
+    height: 900px;
     background-color: rgb(132, 174, 228);
+    @media (max-width: 805px) {
+        height: 2500px;}
+    @media (max-width: 1200px) {
+            height: 900px;}
+    @media (max-width: 576px) {
+                height: 900px;} 
     img{
         height: 600px;
         width: 200px;
@@ -11,48 +17,61 @@
 
 .mainBanio{
     height: $height-main;
-    background-color: $color-banio;
+    background-color: map-get($fondos , menuBanio ) ;
     @media (max-width: 805px) {
-        height: 2500px;}
+        height: 1200px;}
     @media (max-width: 1200px) {
-            height: 1700px;}
+            height: 1800px;}
+    @media (max-width: 576px) {
+                height: 2500px;} 
 
 }
 
 .mainElectro{
     height: $height-main;
-    background-color: $color-electro;
+    background-color: map-get($fondos , menuElectro ) ;
     @media (max-width: 805px) {
         height: 1800px;}
-        @media (max-width: 1200px) {
-            height: 1700px;}    
+    @media (max-width: 1200px) {
+            height: 1800px;}   
+    @media (max-width: 576px) {
+                height: 2500px;}     
 
 }
 
 .mainConstruccion{
     height: $height-main;
-    background-color:$color-construccion;
+    background-color: map-get($fondos , menuConstruccion ) ;
+
     @media (max-width: 805px) {
         height: 1800px;}
     @media (max-width: 1200px) {
-            height: 1700px;}    
+            height: 1800px;} 
+    @media (max-width: 576px) {
+                height: 2500px;}            
 
 }
 
 .mainCocina {
     height: $height-main;
-    background-color: $color-cocina; 
+    background-color: map-get($fondos , menuCocina ) ;
     @media (max-width: 805px) {
         height: 1800px;}
     @media (max-width: 1200px) {
-            height: 1700px;}     
+            height: 1800px;}     
+    @media (max-width: 576px) {
+                height: 2500px;} 
 
 }
 .mainJardin {
     height: $height-main;
-    background-color: $color-jardin;  
+    background-color: map-get($fondos , menuJardin ) ;
     @media (max-width: 805px) {
         height: 1800px;}
+    @media (max-width: 1200px) {
+                height: 1800px;}     
+    @media (max-width: 576px) {
+                    height: 2500px;} 
 }
 /* Imagen Portada Sectores */
 .portada{

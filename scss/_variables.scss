@@ -1,12 +1,23 @@
 /*VARIABLES*/
 
 $fondo-menu:rgb(254,193,7);
-$color-banio: rgb(167,118,199);
-$color-jardin: rgb(132,182,146);
-$color-construccion: rgb(123,136,136);
-$color-cocina: rgb(178,231,232);
-$fondo-caja: rgb(182,212,221);
 $color-electro: rgb(48,39,92);
 $height-main: 1200px;
 $font-principal: caviar;
 $font-lemon: lemon;
+$fondos:(
+    menuBanio: rgb(167,118,199),
+    menuJardin: rgb(132,182,146),
+    menuConstruccion: rgb(123,136,136),
+    menuCocina: rgb(178,231,232),
+    menuElectro: rgb(91, 76, 162)
+)
+
+// @each $fondo, $color in $fondos{
+//     .#{menuBanio}{
+//         background-color: $color-banio;
+//     }
+// }
+
+
+    

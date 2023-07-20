@@ -1,35 +1,30 @@
 /*VARIABLES*/
-* {
-  margin: 0;
-  padding: 0;
-}
-
-/* Fuente principal    */
-@font-face {
-  font-family: caviar;
-  src: url(/fonts/CaviarDreams_Bold.ttf);
-}
-/* Menu Navegacion  index   */
-.menuInicio ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  justify-content: space-evenly;
-  font-size: 20px;
-  font-family: caviar;
-}
-
-/* Estilo HEADER GENERAL */
 header {
-  height: 200px;
+  height: 250px;
   display: flex;
   flex-direction: column;
   background-color: rgb(254, 193, 7);
 }
+@media (max-width: 576px) {
+  header {
+    height: 380px;
+  }
+}
+@media (max-width: 805px) {
+  header {
+    height: 380px;
+  }
+}
+@media (max-width: 1200px) {
+  header {
+    height: 300px;
+  }
+}
 header h1 {
-  font-size: 50px;
+  font-size: 60px;
   font-family: caviar;
   display: inline;
+  justify-content: center;
 }
 header div h2 {
   text-align: center;
@@ -39,14 +34,13 @@ header div h2 {
 header h3 a {
   font-size: 20px;
 }
+header a {
+  font-family: caviar;
+}
 
 /* lOGO INDEX */
 .titulo img {
-  height: 100px;
-}
-
-.btn-primar {
-  background-color: yellowgreen;
+  height: 120px;
 }
 
 /* Menu Navegacion  index   */
@@ -63,10 +57,12 @@ header h3 a {
 .ingreso {
   display: flex;
   justify-content: center;
+  font-family: lemon;
+  font-size: 15px;
 }
 
 .navbar {
-  font-size: 20px;
+  font-size: 10px;
   justify-content: center;
 }
 
@@ -76,8 +72,23 @@ header h3 a {
 
 /* Estilos MAIN */
 .mainindex {
-  height: 1000px;
+  height: 900px;
   background-color: rgb(132, 174, 228);
+}
+@media (max-width: 805px) {
+  .mainindex {
+    height: 2500px;
+  }
+}
+@media (max-width: 1200px) {
+  .mainindex {
+    height: 900px;
+  }
+}
+@media (max-width: 576px) {
+  .mainindex {
+    height: 900px;
+  }
 }
 .mainindex img {
   height: 600px;
@@ -91,18 +102,23 @@ header h3 a {
 }
 @media (max-width: 805px) {
   .mainBanio {
-    height: 2500px;
+    height: 1200px;
   }
 }
 @media (max-width: 1200px) {
   .mainBanio {
-    height: 1700px;
+    height: 1800px;
+  }
+}
+@media (max-width: 576px) {
+  .mainBanio {
+    height: 2500px;
   }
 }
 
 .mainElectro {
   height: 1200px;
-  background-color: rgb(48, 39, 92);
+  background-color: rgb(91, 76, 162);
 }
 @media (max-width: 805px) {
   .mainElectro {
@@ -111,7 +127,12 @@ header h3 a {
 }
 @media (max-width: 1200px) {
   .mainElectro {
-    height: 1700px;
+    height: 1800px;
+  }
+}
+@media (max-width: 576px) {
+  .mainElectro {
+    height: 2500px;
   }
 }
 
@@ -126,7 +147,12 @@ header h3 a {
 }
 @media (max-width: 1200px) {
   .mainConstruccion {
-    height: 1700px;
+    height: 1800px;
+  }
+}
+@media (max-width: 576px) {
+  .mainConstruccion {
+    height: 2500px;
   }
 }
 
@@ -141,7 +167,12 @@ header h3 a {
 }
 @media (max-width: 1200px) {
   .mainCocina {
-    height: 1700px;
+    height: 1800px;
+  }
+}
+@media (max-width: 576px) {
+  .mainCocina {
+    height: 2500px;
   }
 }
 
@@ -152,6 +183,16 @@ header h3 a {
 @media (max-width: 805px) {
   .mainJardin {
     height: 1800px;
+  }
+}
+@media (max-width: 1200px) {
+  .mainJardin {
+    height: 1800px;
+  }
+}
+@media (max-width: 576px) {
+  .mainJardin {
+    height: 2500px;
   }
 }
 
@@ -166,30 +207,10 @@ header h3 a {
 }
 
 /* Menu De compras */
-.flex-center, .menuElectro, .menuJardin, .menuCocina, .menuConstruccion, .menuBanio {
+.flex-center, .menuBanio .menuCocina .menuConstruccion .menuElectro .menuJardin {
   display: flex;
   justify-content: center;
   font-family: caviar;
-}
-
-.menuBanio {
-  background-color: rgb(167, 118, 199);
-}
-
-.menuConstruccion {
-  background-color: rgb(123, 136, 136);
-}
-
-.menuCocina {
-  background-color: rgb(178, 231, 232);
-}
-
-.menuJardin {
-  background-color: rgb(132, 182, 146);
-}
-
-.menuElectro {
-  background-color: rgb(48, 39, 92);
 }
 
 .cajamenu {
@@ -200,42 +221,14 @@ header h3 a {
   font-family: caviar;
 }
 
-/* Estilo caja sector Construccion  */
-.caja {
-  background-color: rgb(182, 212, 221);
+.row {
   justify-content: space-between;
-  text-align: center;
-  border: double;
-  height: 300px;
-  width: 300px;
-}
-.caja div h2 {
-  font-size: 15px;
-  font-family: caviar;
-}
-.caja div h3 {
-  font-size: 15px;
-}
-.caja img {
-  height: 200px;
-  width: 200px;
+  grid-gap: 10px;
+  margin: 10px;
 }
 
-/* Grid Menu de Compras*/
-#menu {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  justify-content: space-around;
-  text-align: center;
-  height: 100%;
-  padding: 20px;
-  margin: 20px;
-  grid-gap: 20px;
-}
-
-/* Estilos cajas con Grid  */
 .caja1 {
-  background-color: rgb(182, 212, 221);
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 0.297), rgba(6, 77, 105, 0.281));
   justify-content: space-between;
   height: 320px;
   width: 200px;
@@ -243,14 +236,11 @@ header h3 a {
   border: double;
   border-radius: 5px;
   font-size: 15px;
+  padding: 20px;
 }
-.caja1 h2 {
+.caja1 p {
   font-size: 15px;
   font-family: caviar;
-}
-.caja1 h3 {
-  font-size: 15px;
-  font-family: lemon;
 }
 .caja1 div img {
   width: 100%;
@@ -260,8 +250,9 @@ button {
   color: blueviolet;
   background-color: rgb(230, 197, 55);
   font-family: lemon;
-  border-radius: 10px;
+  border-radius: 5px;
   font-size: 10px;
+  padding: 3px;
 }
 
 a {
@@ -270,15 +261,19 @@ a {
 }
 
 #footer2 {
-  height: 200px;
+  height: 220px;
   background-color: rgb(254, 193, 7);
   background-size: cover;
   text-align: center;
 }
-#footer2 h1 {
-  font-size: 20px;
+#footer2 p {
+  font-size: 15px;
   display: flex;
   justify-content: center;
+  font-family: caviar;
+}
+#footer2 a {
+  font-size: 15px;
   font-family: caviar;
 }
 
@@ -292,20 +287,7 @@ a {
   transform: scale(1.2);
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
-/* Fuente principal    */
-@font-face {
-  font-family: caviar;
-  src: url(/fonts/CaviarDreams_Bold.ttf);
-}
-@font-face {
-  font-family: lemon;
-  src: url(/fonts/LEMONMILK-Regular.otf);
-}
+/* Off canvas */
 aside {
   display: flex;
   justify-content: center;
@@ -337,6 +319,20 @@ aside {
   margin-top: 10px;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Fuente principal    */
+@font-face {
+  font-family: caviar;
+  src: url(/fonts/CaviarDreams_Bold.ttf);
+}
+@font-face {
+  font-family: lemon;
+  src: url(/fonts/LEMONMILK-Regular.otf);
+}
 /* Estilo HEADER GENERAL */
 /* Estilo cajas menu de compra   */
 

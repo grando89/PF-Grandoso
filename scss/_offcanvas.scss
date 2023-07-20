@@ -1,0 +1,29 @@
+/* Off canvas */
+
+aside {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.offcanvas{
+    visibility: inherit;
+}
+.offcanvas-header{
+    background-color:  rgb(189, 162, 43);
+    display: flex;
+    font-family: lemon;
+    display: flex;
+    justify-content: center;
+}
+.offcanvas-body {
+    background-color: rgb(189, 162, 43);
+    display: flex;
+    justify-content: center;
+    align-items:start;
+}
+
+.offcanvas-body img{
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+}
