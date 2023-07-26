@@ -6,18 +6,12 @@
 @import "menucompras";
 @import "footer";
 @import "offcanvas";
+@import "fuentes";
 * {
     margin: 0;
     padding: 0;
 }
  /* Fuente principal    */
-@font-face {
-    font-family: caviar;
-    src: url(/fonts/CaviarDreams_Bold.ttf);}
-@font-face{
-    font-family: lemon;
-    src: url(/fonts/LEMONMILK-Regular.otf);
-}    
 
 
 

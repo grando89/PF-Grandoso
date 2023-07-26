@@ -50,7 +50,7 @@ div {
     }
 }
 
-}
+
 
 button{
     color: blueviolet;
@@ -59,8 +59,10 @@ button{
     border-radius: 5px;
     font-size: 10px;
     padding: 3px;
+
+&:hover{
+    width:150px;
+    background-color: rgb(156, 236, 16);
 }
-a{
-    color: rgb(18, 75, 197);
-    text-decoration: none;
+}
 }

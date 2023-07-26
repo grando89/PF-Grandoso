@@ -1,5 +1,26 @@
+#headerindex {
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    background-color: $fondo-menu;
+    @media (min-width: 320px) and (max-width: 452px) {
+        height: 500px;}
+    
+    h1{
+        font-size: 60px;
+        font-family: $font-principal;
+        display: inline; 
+        justify-content: center;
+}
+
+}
+
+
+
+
+
 header {
-    height: 250px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     background-color: $fondo-menu;
@@ -16,14 +37,15 @@ header {
         justify-content: center;
 }
     div h2{
-            text-align: center;
-            font-family: $font-principal;
-            font-size: 20px;    }
+            text-align: left;
+            font-family: rosalia;
+            font-size: 15px;    }
             h3 a{
                 font-size: 20px;
 }   
 a{
     font-family: $font-principal;
+    text-decoration: none;
 }
 }
 /* lOGO INDEX */

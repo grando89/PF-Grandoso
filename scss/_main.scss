@@ -12,30 +12,40 @@
         height: 600px;
         width: 200px;
         margin-top: 100px;
+ }
+ aside {
+    button{
+    color: blueviolet;
+    background-color: rgb(230, 197, 55);
+    font-family: lemon;
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 3px;
+}
 }
 }
 
 .mainBanio{
     height: $height-main;
     background-color: map-get($fondos , menuBanio ) ;
-    @media (max-width: 805px) {
-        height: 1200px;}
-    @media (max-width: 1200px) {
-            height: 1800px;}
-    @media (max-width: 576px) {
-                height: 2500px;} 
+    @media (min-width: 320px) and (max-width: 452px) {
+        height: 4400px;}   
+    @media (min-width: 452px) and (max-width: 1200px) {
+            height: 2400px;}     
+    @media (min-width: 765px)  and (max-width: 1200px){
+        height: 1800px;}   
 
 }
 
 .mainElectro{
     height: $height-main;
     background-color: map-get($fondos , menuElectro ) ;
-    @media (max-width: 805px) {
-        height: 1800px;}
-    @media (max-width: 1200px) {
-            height: 1800px;}   
-    @media (max-width: 576px) {
-                height: 2500px;}     
+    @media (min-width: 320px) and (max-width: 452px) {
+        height: 4400px;}   
+    @media (min-width: 452px) and (max-width: 1200px) {
+            height: 2400px;}     
+    @media (min-width: 765px)  and (max-width: 1200px){
+        height: 1800px;}       
 
 }
 
@@ -43,35 +53,38 @@
     height: $height-main;
     background-color: map-get($fondos , menuConstruccion ) ;
 
-    @media (max-width: 805px) {
-        height: 1800px;}
-    @media (max-width: 1200px) {
-            height: 1800px;} 
-    @media (max-width: 576px) {
-                height: 2500px;}            
+    @media (min-width: 320px) and (max-width: 452px) {
+        height: 4400px;}   
+    @media (min-width: 452px) and (max-width: 1200px) {
+            height: 2400px;}     
+    @media (min-width: 765px)  and (max-width: 1200px){
+        height: 1800px;}   
 
 }
 
 .mainCocina {
     height: $height-main;
     background-color: map-get($fondos , menuCocina ) ;
-    @media (max-width: 805px) {
+    @media (min-width: 320px) and (max-width: 452px) {
+        height: 4400px;}   
+    @media (min-width: 452px) and (max-width: 1200px) {
+            height: 2400px;}     
+    @media (min-width: 765px)  and (max-width: 1200px){
         height: 1800px;}
-    @media (max-width: 1200px) {
-            height: 1800px;}     
-    @media (max-width: 576px) {
-                height: 2500px;} 
+   
+   
 
 }
 .mainJardin {
     height: $height-main;
     background-color: map-get($fondos , menuJardin ) ;
-    @media (max-width: 805px) {
+    @media (min-width: 320px) and (max-width: 452px) {
+        height: 4400px;}   
+    @media (min-width: 452px) and (max-width: 1200px) {
+            height: 2400px;}     
+    @media (min-width: 765px)  and (max-width: 1200px){
         height: 1800px;}
-    @media (max-width: 1200px) {
-                height: 1800px;}     
-    @media (max-width: 576px) {
-                    height: 2500px;} 
+    
 }
 /* Imagen Portada Sectores */
 .portada{

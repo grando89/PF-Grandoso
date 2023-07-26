@@ -1,9 +1,27 @@
 /*VARIABLES*/
-header {
-  height: 250px;
+#headerindex {
+  height: 280px;
   display: flex;
   flex-direction: column;
-  background-color: rgb(254, 193, 7);
+  background-color: rgb(235, 220, 174);
+}
+@media (min-width: 320px) and (max-width: 452px) {
+  #headerindex {
+    height: 500px;
+  }
+}
+#headerindex h1 {
+  font-size: 60px;
+  font-family: caviar;
+  display: inline;
+  justify-content: center;
+}
+
+header {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(235, 220, 174);
 }
 @media (max-width: 576px) {
   header {
@@ -27,15 +45,16 @@ header h1 {
   justify-content: center;
 }
 header div h2 {
-  text-align: center;
-  font-family: caviar;
-  font-size: 20px;
+  text-align: left;
+  font-family: rosalia;
+  font-size: 15px;
 }
 header h3 a {
   font-size: 20px;
 }
 header a {
   font-family: caviar;
+  text-decoration: none;
 }
 
 /* lOGO INDEX */
@@ -95,24 +114,32 @@ header a {
   width: 200px;
   margin-top: 100px;
 }
+.mainindex aside button {
+  color: blueviolet;
+  background-color: rgb(230, 197, 55);
+  font-family: lemon;
+  border-radius: 5px;
+  font-size: 10px;
+  padding: 3px;
+}
 
 .mainBanio {
   height: 1200px;
   background-color: rgb(167, 118, 199);
 }
-@media (max-width: 805px) {
+@media (min-width: 320px) and (max-width: 452px) {
   .mainBanio {
-    height: 1200px;
+    height: 4400px;
   }
 }
-@media (max-width: 1200px) {
+@media (min-width: 452px) and (max-width: 1200px) {
+  .mainBanio {
+    height: 2400px;
+  }
+}
+@media (min-width: 765px) and (max-width: 1200px) {
   .mainBanio {
     height: 1800px;
-  }
-}
-@media (max-width: 576px) {
-  .mainBanio {
-    height: 2500px;
   }
 }
 
@@ -120,19 +147,19 @@ header a {
   height: 1200px;
   background-color: rgb(91, 76, 162);
 }
-@media (max-width: 805px) {
+@media (min-width: 320px) and (max-width: 452px) {
   .mainElectro {
-    height: 1800px;
+    height: 4400px;
   }
 }
-@media (max-width: 1200px) {
+@media (min-width: 452px) and (max-width: 1200px) {
   .mainElectro {
-    height: 1800px;
+    height: 2400px;
   }
 }
-@media (max-width: 576px) {
+@media (min-width: 765px) and (max-width: 1200px) {
   .mainElectro {
-    height: 2500px;
+    height: 1800px;
   }
 }
 
@@ -140,19 +167,19 @@ header a {
   height: 1200px;
   background-color: rgb(123, 136, 136);
 }
-@media (max-width: 805px) {
+@media (min-width: 320px) and (max-width: 452px) {
   .mainConstruccion {
-    height: 1800px;
+    height: 4400px;
   }
 }
-@media (max-width: 1200px) {
+@media (min-width: 452px) and (max-width: 1200px) {
   .mainConstruccion {
-    height: 1800px;
+    height: 2400px;
   }
 }
-@media (max-width: 576px) {
+@media (min-width: 765px) and (max-width: 1200px) {
   .mainConstruccion {
-    height: 2500px;
+    height: 1800px;
   }
 }
 
@@ -160,19 +187,19 @@ header a {
   height: 1200px;
   background-color: rgb(178, 231, 232);
 }
-@media (max-width: 805px) {
+@media (min-width: 320px) and (max-width: 452px) {
   .mainCocina {
-    height: 1800px;
+    height: 4400px;
   }
 }
-@media (max-width: 1200px) {
+@media (min-width: 452px) and (max-width: 1200px) {
   .mainCocina {
-    height: 1800px;
+    height: 2400px;
   }
 }
-@media (max-width: 576px) {
+@media (min-width: 765px) and (max-width: 1200px) {
   .mainCocina {
-    height: 2500px;
+    height: 1800px;
   }
 }
 
@@ -180,19 +207,19 @@ header a {
   height: 1200px;
   background-color: rgb(132, 182, 146);
 }
-@media (max-width: 805px) {
+@media (min-width: 320px) and (max-width: 452px) {
   .mainJardin {
-    height: 1800px;
+    height: 4400px;
   }
 }
-@media (max-width: 1200px) {
+@media (min-width: 452px) and (max-width: 1200px) {
   .mainJardin {
-    height: 1800px;
+    height: 2400px;
   }
 }
-@media (max-width: 576px) {
+@media (min-width: 765px) and (max-width: 1200px) {
   .mainJardin {
-    height: 2500px;
+    height: 1800px;
   }
 }
 
@@ -245,8 +272,7 @@ header a {
 .caja1 div img {
   width: 100%;
 }
-
-button {
+.caja1 button {
   color: blueviolet;
   background-color: rgb(230, 197, 55);
   font-family: lemon;
@@ -254,15 +280,14 @@ button {
   font-size: 10px;
   padding: 3px;
 }
-
-a {
-  color: rgb(18, 75, 197);
-  text-decoration: none;
+.caja1 button:hover {
+  width: 150px;
+  background-color: rgb(156, 236, 16);
 }
 
 #footer2 {
   height: 220px;
-  background-color: rgb(254, 193, 7);
+  background-color: rgb(235, 220, 174);
   background-size: cover;
   text-align: center;
 }
@@ -319,12 +344,6 @@ aside {
   margin-top: 10px;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
-/* Fuente principal    */
 @font-face {
   font-family: caviar;
   src: url(/fonts/CaviarDreams_Bold.ttf);
@@ -333,6 +352,16 @@ aside {
   font-family: lemon;
   src: url(/fonts/LEMONMILK-Regular.otf);
 }
+@font-face {
+  font-family: rosalia;
+  src: url(/fonts/Rosalia.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Fuente principal    */
 /* Estilo HEADER GENERAL */
 /* Estilo cajas menu de compra   */
 
