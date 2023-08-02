@@ -20,10 +20,9 @@
     border-radius: 5px;
     margin: 40px;
     font-family: $font-principal;
+ 
 
 }
-
-
 .caja1 {
 background-image: linear-gradient(to top,rgba(255, 255, 255, 0.297),rgba(6, 77, 105, 0.281));
 justify-content: space-between;
@@ -34,6 +33,9 @@ border: double;
 border-radius: 5px;
 font-size: 15px;
 padding: 20px;
+@media (min-width: 320px) and (max-width: 452px) {
+    margin:auto
+}
 p{
     font-size: 15px;
     font-family: $font-principal;
