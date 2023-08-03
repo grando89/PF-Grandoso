@@ -4,11 +4,11 @@
         height: 4400px;}   
 }
 @mixin for-tablet{
-    @media (min-width: 452px) and (max-width: 1200px) {
+    @media (min-width: 452px) and (max-width: 800px) {
         height: 2400px;}  
 }
 @mixin for-desktop{
-    @media (min-width: 765px)  and (max-width: 1200px){
+    @media (min-width: 800px)  and (max-width: 1200px){
         height: 1800px;}
 }
 
@@ -27,8 +27,8 @@
         width: 400px;
         margin-top: 100px;
     
- }
- aside {
+}/* boton medios de pago*/
+aside {
     button{
     color: blueviolet;
     background-color: rgb(230, 197, 55);

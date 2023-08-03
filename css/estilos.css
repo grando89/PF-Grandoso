@@ -88,6 +88,7 @@ header a {
 .mainindex {
   height: 900px;
   background-color: rgb(132, 174, 228);
+  /* boton medios de pago*/
 }
 @media (max-width: 805px) {
   .mainindex {
@@ -126,12 +127,12 @@ header a {
     height: 4400px;
   }
 }
-@media (min-width: 452px) and (max-width: 1200px) {
+@media (min-width: 452px) and (max-width: 800px) {
   .mainBanio {
     height: 2400px;
   }
 }
-@media (min-width: 765px) and (max-width: 1200px) {
+@media (min-width: 800px) and (max-width: 1200px) {
   .mainBanio {
     height: 1800px;
   }
@@ -153,12 +154,12 @@ header a {
     height: 4400px;
   }
 }
-@media (min-width: 452px) and (max-width: 1200px) {
+@media (min-width: 452px) and (max-width: 800px) {
   .mainElectro {
     height: 2400px;
   }
 }
-@media (min-width: 765px) and (max-width: 1200px) {
+@media (min-width: 800px) and (max-width: 1200px) {
   .mainElectro {
     height: 1800px;
   }
@@ -173,12 +174,12 @@ header a {
     height: 4400px;
   }
 }
-@media (min-width: 452px) and (max-width: 1200px) {
+@media (min-width: 452px) and (max-width: 800px) {
   .mainConstruccion {
     height: 2400px;
   }
 }
-@media (min-width: 765px) and (max-width: 1200px) {
+@media (min-width: 800px) and (max-width: 1200px) {
   .mainConstruccion {
     height: 1800px;
   }
@@ -193,12 +194,12 @@ header a {
     height: 4400px;
   }
 }
-@media (min-width: 452px) and (max-width: 1200px) {
+@media (min-width: 452px) and (max-width: 800px) {
   .mainCocina {
     height: 2400px;
   }
 }
-@media (min-width: 765px) and (max-width: 1200px) {
+@media (min-width: 800px) and (max-width: 1200px) {
   .mainCocina {
     height: 1800px;
   }
@@ -213,12 +214,12 @@ header a {
     height: 4400px;
   }
 }
-@media (min-width: 452px) and (max-width: 1200px) {
+@media (min-width: 452px) and (max-width: 800px) {
   .mainJardin {
     height: 2400px;
   }
 }
-@media (min-width: 765px) and (max-width: 1200px) {
+@media (min-width: 800px) and (max-width: 1200px) {
   .mainJardin {
     height: 1800px;
   }
@@ -317,13 +318,8 @@ header a {
   text-align: center;
   border: double;
   border-radius: 5px;
-  font-size: 15px;
+  font-size: 17px;
   padding: 20px;
-}
-@media (min-width: 320px) and (max-width: 452px) {
-  .caja1 {
-    margin: auto;
-  }
 }
 .caja1 p {
   font-size: 15px;
