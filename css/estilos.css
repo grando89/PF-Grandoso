@@ -7,7 +7,7 @@
 }
 @media (min-width: 320px) and (max-width: 570px) {
   #header2 {
-    height: 460px;
+    height: 500px;
   }
 }
 @media (min-width: 570px) and (max-width: 990px) {
@@ -238,7 +238,7 @@ header a {
 .mainContacto {
   background-color: rgba(0, 0, 0, 0.308);
   height: 600px;
-  background-image: url(/img/fondo\ herramientas.jpg);
+  background-image: url(/img/index/fondo\ herramientas.webp);
   background-size: cover;
   display: flex;
   justify-content: space-between;
@@ -320,6 +320,7 @@ header a {
   border-radius: 5px;
   font-size: 17px;
   padding: 20px;
+  margin: auto;
 }
 .caja1 p {
   font-size: 15px;
