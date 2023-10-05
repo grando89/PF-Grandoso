@@ -1,20 +1,57 @@
 /*VARIABLES*/
-#headerindex {
-  height: 280px;
+#header2 {
+  height: 200px;
   display: flex;
   flex-direction: column;
   background-color: rgb(235, 220, 174);
 }
-@media (min-width: 320px) and (max-width: 452px) {
-  #headerindex {
+@media (min-width: 320px) and (max-width: 570px) {
+  #header2 {
     height: 500px;
   }
 }
-#headerindex h1 {
-  font-size: 60px;
+@media (min-width: 570px) and (max-width: 990px) {
+  #header2 {
+    height: 500px;
+  }
+}
+@media (min-width: 990px) and (max-width: 1200px) {
+  #header2 {
+    height: 400px;
+  }
+}
+#header2 h1 {
+  font-size: 50px;
   font-family: caviar;
-  display: inline;
+  display: flex;
+  justify-content: left;
+}
+#header2 a {
+  font-family: caviar;
+  text-decoration: none;
+  font-size: 15px;
+  padding-left: 10px;
+}
+#header2 h2 a {
+  font-size: 10px;
+  color: darkblue;
+}
+#header2 h3 a {
+  font-size: 10px;
+  color: darkblue;
+}
+
+.navbar {
+  display: flex;
   justify-content: center;
+}
+
+.navbar-toggler {
+  background-color: rgba(165, 127, 22, 0.301);
+  border-radius: 5px;
+  border: none;
+  padding-left: 50px;
+  font-family: lemon;
 }
 
 header {
@@ -22,21 +59,6 @@ header {
   display: flex;
   flex-direction: column;
   background-color: rgb(235, 220, 174);
-}
-@media (max-width: 576px) {
-  header {
-    height: 380px;
-  }
-}
-@media (max-width: 805px) {
-  header {
-    height: 380px;
-  }
-}
-@media (max-width: 1200px) {
-  header {
-    height: 300px;
-  }
 }
 header h1 {
   font-size: 60px;
@@ -59,40 +81,14 @@ header a {
 
 /* lOGO INDEX */
 .titulo img {
-  height: 120px;
-}
-
-/* Menu Navegacion  index   */
-.menuInicio ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  justify-content: space-evenly;
-  font-size: 20px;
-  font-family: caviar;
-}
-
-/* Estilo Ingreso Usuario  */
-.ingreso {
-  display: flex;
-  justify-content: center;
-  font-family: lemon;
-  font-size: 15px;
-}
-
-.navbar {
-  font-size: 10px;
-  justify-content: center;
-}
-
-#navbarNavAltMarkup {
-  justify-content: center;
+  height: 80px;
 }
 
 /* Estilos MAIN */
 .mainindex {
   height: 900px;
   background-color: rgb(132, 174, 228);
+  /* boton medios de pago*/
 }
 @media (max-width: 805px) {
   .mainindex {
@@ -111,7 +107,7 @@ header a {
 }
 .mainindex img {
   height: 600px;
-  width: 200px;
+  width: 400px;
   margin-top: 100px;
 }
 .mainindex aside button {
@@ -120,7 +116,6 @@ header a {
   font-family: lemon;
   border-radius: 5px;
   font-size: 10px;
-  padding: 3px;
 }
 
 .mainBanio {
@@ -132,15 +127,22 @@ header a {
     height: 4400px;
   }
 }
-@media (min-width: 452px) and (max-width: 1200px) {
+@media (min-width: 452px) and (max-width: 800px) {
   .mainBanio {
     height: 2400px;
   }
 }
-@media (min-width: 765px) and (max-width: 1200px) {
+@media (min-width: 800px) and (max-width: 1200px) {
   .mainBanio {
     height: 1800px;
   }
+}
+
+.row {
+  display: flex;
+  column-gap: 10px;
+  row-gap: 10px;
+  padding: 10px;
 }
 
 .mainElectro {
@@ -152,12 +154,12 @@ header a {
     height: 4400px;
   }
 }
-@media (min-width: 452px) and (max-width: 1200px) {
+@media (min-width: 452px) and (max-width: 800px) {
   .mainElectro {
     height: 2400px;
   }
 }
-@media (min-width: 765px) and (max-width: 1200px) {
+@media (min-width: 800px) and (max-width: 1200px) {
   .mainElectro {
     height: 1800px;
   }
@@ -172,12 +174,12 @@ header a {
     height: 4400px;
   }
 }
-@media (min-width: 452px) and (max-width: 1200px) {
+@media (min-width: 452px) and (max-width: 800px) {
   .mainConstruccion {
     height: 2400px;
   }
 }
-@media (min-width: 765px) and (max-width: 1200px) {
+@media (min-width: 800px) and (max-width: 1200px) {
   .mainConstruccion {
     height: 1800px;
   }
@@ -192,12 +194,12 @@ header a {
     height: 4400px;
   }
 }
-@media (min-width: 452px) and (max-width: 1200px) {
+@media (min-width: 452px) and (max-width: 800px) {
   .mainCocina {
     height: 2400px;
   }
 }
-@media (min-width: 765px) and (max-width: 1200px) {
+@media (min-width: 800px) and (max-width: 1200px) {
   .mainCocina {
     height: 1800px;
   }
@@ -212,12 +214,12 @@ header a {
     height: 4400px;
   }
 }
-@media (min-width: 452px) and (max-width: 1200px) {
+@media (min-width: 452px) and (max-width: 800px) {
   .mainJardin {
     height: 2400px;
   }
 }
-@media (min-width: 765px) and (max-width: 1200px) {
+@media (min-width: 800px) and (max-width: 1200px) {
   .mainJardin {
     height: 1800px;
   }
@@ -231,6 +233,66 @@ header a {
   border-radius: 5px;
   border: double;
   border-style: solid;
+}
+
+.mainContacto {
+  background-color: rgba(0, 0, 0, 0.308);
+  height: 600px;
+  background-image: url(/img/index/fondo\ herramientas.webp);
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+}
+@media (min-width: 320px) and (max-width: 570px) {
+  .mainContacto {
+    height: 1800px;
+  }
+}
+@media (min-width: 570px) and (max-width: 810px) {
+  .mainContacto {
+    height: 1200px;
+  }
+}
+@media (min-width: 810px) and (max-width: 1200px) {
+  .mainContacto {
+    height: 1200px;
+  }
+}
+.mainContacto button {
+  color: rgb(35, 4, 65);
+  background-color: rgba(164, 218, 131, 0.658);
+  font-family: lemon;
+  border-radius: 5px;
+  font-size: 10px;
+  padding: 3px;
+}
+.mainContacto .contacto {
+  display: flex;
+  flex-wrap: wrap;
+}
+.mainContacto .usuario {
+  height: 390px;
+  width: 600px;
+  background-color: rgba(214, 201, 16, 0.767);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+@media (min-width: 320px) and (max-width: 570px) {
+  .mainContacto .usuario {
+    height: 700px;
+  }
+}
+.mainContacto .historia {
+  height: 370px;
+  width: 600px;
+  background-color: rgb(224, 222, 203);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: dotted;
+  border-radius: 5px;
+}
+@media (min-width: 320px) and (max-width: 570px) {
+  .mainContacto .historia {
+    height: 800px;
+  }
 }
 
 /* Menu De compras */
@@ -248,12 +310,6 @@ header a {
   font-family: caviar;
 }
 
-.row {
-  justify-content: space-between;
-  grid-gap: 10px;
-  margin: 10px;
-}
-
 .caja1 {
   background-image: linear-gradient(to top, rgba(255, 255, 255, 0.297), rgba(6, 77, 105, 0.281));
   justify-content: space-between;
@@ -262,8 +318,9 @@ header a {
   text-align: center;
   border: double;
   border-radius: 5px;
-  font-size: 15px;
+  font-size: 17px;
   padding: 20px;
+  margin: auto;
 }
 .caja1 p {
   font-size: 15px;
@@ -271,6 +328,7 @@ header a {
 }
 .caja1 div img {
   width: 100%;
+  height: 150px;
 }
 .caja1 button {
   color: blueviolet;
@@ -282,11 +340,11 @@ header a {
 }
 .caja1 button:hover {
   width: 150px;
-  background-color: rgb(156, 236, 16);
+  background-color: rgba(155, 236, 16, 0.267);
 }
 
 #footer2 {
-  height: 220px;
+  height: 200px;
   background-color: rgb(235, 220, 174);
   background-size: cover;
   text-align: center;
@@ -306,7 +364,7 @@ header a {
 .redes {
   display: flex;
   justify-content: center;
-  height: 30px;
+  height: 60px;
 }
 .redes div img:hover {
   transform: scale(1.2);
@@ -339,7 +397,7 @@ aside {
 }
 
 .offcanvas-body img {
-  height: 100px;
+  height: 80px;
   width: 100px;
   margin-top: 10px;
 }

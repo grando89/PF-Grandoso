@@ -20,14 +20,8 @@
     border-radius: 5px;
     margin: 40px;
     font-family: $font-principal;
+    
 
-}
-
-
-.row{
-    justify-content: space-between;
-    grid-gap: 10px;
-    margin:10px;
 }
 .caja1 {
 background-image: linear-gradient(to top,rgba(255, 255, 255, 0.297),rgba(6, 77, 105, 0.281));
@@ -37,8 +31,12 @@ width: 200px;
 text-align: center;
 border: double;
 border-radius: 5px;
-font-size: 15px;
+font-size: 17px;
 padding: 20px;
+margin: auto;
+
+
+
 p{
     font-size: 15px;
     font-family: $font-principal;
@@ -47,6 +45,7 @@ p{
 div {
     img{
         width: 100%;
+        height: 150px;
     }
 }
 
@@ -62,7 +61,7 @@ button{
 
 &:hover{
     width:150px;
-    background-color: rgb(156, 236, 16);
+    background-color: rgba(155, 236, 16, 0.267);
 }
 }
 }
